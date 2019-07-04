@@ -1,11 +1,11 @@
-#Uncash Api
+# Uncash Api
 
 this api is used by the uncash services android app its deployed on heroku cloud service 
 and deals with postgresql database it has some calls that helps the app to provide the service to the end users .
 
 
 
-###Api calls example : signup calls
+### Api calls example : signup calls
 1. "signup/authentication"
 
         Method : Post
@@ -36,7 +36,7 @@ and deals with postgresql database it has some calls that helps the app to provi
 
 
 
-###Heroku services 
+### Heroku services 
 this api is hosted on the heroku services with the postgresql database .
 
 ### Uncash Database
@@ -45,18 +45,18 @@ consists of 10 tables this is an example :
 
 1. "user"
 store the user information 
-        id  numeric 
-		username Varchar(10)
-		password hash Varchar (120) 
-		role Varchar(10)
-		phone number Varchar(11)
+        id  numeric ,
+	username Varchar(10),
+	password hash Varchar (120) ,
+	role Varchar(10),
+	phone number Varchar(11)
 
 
 1. "storeInfo"
 store the information of each store that provide the service 
-        id  numeric 
-		name Varchar(10)
-		phone number Varchar(11)
+        id  numeric ,
+	name Varchar(10),
+	phone number Varchar(11)
 
 
 
